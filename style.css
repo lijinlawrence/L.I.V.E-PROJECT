@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+   
+}
+/* navber */
+.banner{
+    height: 100vh;
+    background-image: url(./images/desktop.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+   }
+   .grey-color{
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(138, 72, 11, 0.3);
+    position: absolute;
+    top: 0;
+    opacity: 1;
+  }
+ .nav-list ul li a {
+     text-decoration: none;
+  
+   color: aliceblue;
+   margin-left: 30px;
+   font-weight: 500;
+   transition: 0.5s;
+   
+}
+.nav-list ul li a:hover{ 
+    color:orange;
+   
+}
+.nav-list ul{
+    display: flex;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    color: aliceblue;
+    font-weight: 700;
+    padding: 20px 50px;
+    transition: 0.5s;
+   
+    }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:rgba(101, 50, 2, 0.858) ;
+    z-index: 100;
+    margin-right: 50px;
+    height: 70px;
+ }
+
+
+
+
+
+  /* content */
+
+  .content{
+    color:white;
+    margin-top: 150px;
+    text-align: justify;
+}
+ .content .head1 {
+    font-weight: 900;
+    text-align: center;
+  }
+  .content .para1{
+    color: orange;
+    font-weight: 800;
+    text-align: center;
+  }
+ .content .para2{
+    margin-top: 30px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 500;
+} 
+
+.content .btn1{
+    background-color: orange;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 40px 300px;
+   text-align: center;
+    font-weight: 500; 
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+    .reference{
+       text-align: center;
+       color:black;
+       background-color: orange;
+       }
+
+    .all{
+        margin-top: 100px;
+        color: white;
+        height: 300px;
+    }  
+
+    .all .head3,.para3{
+        font-weight: 900;
+    }
+
+    .all .para4{
+        font-weight: 500;
+    }
+ .btn2{
+        margin-top: 50px;
+        background-color: white;
+        padding: 10px 30px;
+        border-radius: 30px;
+        font-weight: 500;
+        }
+
+
+/* list section */
+.list-section{
+    padding-bottom: 50px;
+}
+
+.list-section .head3{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 500;
+   
+}
+
+.list-section .head4{
+    font-weight: 600;
+}
+
+.list-section .para5{
+    text-align: center;
+    color: orange;
+    font-weight: 900;
+}
+
+.list-item{
+    margin-top: 70px;
+}
+
+.list-item .items{
+    text-align: center;
+}
+
+.list-item .items .para6{
+    font-weight: 400;
+}
+
+
+/* images */
+.no-gutter > [class*='col-']{
+    padding-left: 0;
+    padding-right: 0;
+}
+.no-gutter .col-4{
+    position: relative;
+}
+.category1{
+    color: white;
+    text-align: center;
+    background-color: rgba(255, 165, 0 ,0.6);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    position: absolute;
+    transition: 0.6s;
+    opacity: 0;
+}
+.category1:hover{
+opacity: 1;
+}
+
+
+/* download section */
+.download-color{
+    background-color: black;
+    text-align: center;
+    height: 300px;
+   
+}
+.for{
+  color: white;
+  padding-top: 70px;
+
+ }   
+
+.btn3{
+    margin-top: 30px;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-weight: 500;
+
+}
+
+
+/* form */
+.form{
+    padding-top: 50px;
+    text-align: center;
+
+}
+.input1{
+    margin-top: 50px;
+}
+
+.form-control{
+    margin: 10px;
+    font-weight: 500;
+}
+
+.para8{
+    color: orange;
+    font-weight: 900;
+}
+
+.btn4{
+    background-color: orange;
+    border-radius: 30px;
+    padding: 12px;
+}
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
